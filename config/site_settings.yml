@@ -989,6 +989,9 @@ files:
     list_type: compact
   crawl_images:
     default: true
+  lazy_load_images:
+    client: true
+    default: false
   max_image_width:
     client: true
     default: 690
